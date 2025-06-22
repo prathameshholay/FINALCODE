@@ -28,7 +28,7 @@ const Home = () => {
         <h1>Training and Placement Portal</h1>
         <div className="card-container">
           <Link to="/register/student" className="card">Student</Link>
-          <Link to="/register/admin" className="card">Admin</Link>
+          <Link to="/admin/dashboard" className="card">Admin Dashboard</Link> {/* REPLACED */}
           <Link to="/register/tpo" className="card">TPO</Link>
           <Link to="/register/company" className="card">Company</Link>
         </div>

@@ -1,0 +1,89 @@
+.dashboard {
+  padding: 40px;
+  background-color: #f4f6f9;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.heading {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 30px;
+  color: #333;
+  text-align: center;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.statCard {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  transition: transform 0.3s;
+}
+
+.statCard:hover {
+  transform: translateY(-5px);
+}
+
+.icon {
+  font-size: 28px;
+  color: #3b82f6;
+}
+
+.cardTitle {
+  font-size: 14px;
+  color: #666;
+}
+
+.cardCount {
+  font-size: 24px;
+  font-weight: 700;
+  color: #222;
+}
+
+.sectionGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+.section {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.section h2 {
+  font-size: 20px;
+  color: #1f2937;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: #302e2e;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+  text-align: center;
+  transition: background-color 0.2s;
+}
+
+.btn:hover {
+  background-color: #a6a8b1;
+}
